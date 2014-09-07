@@ -1,15 +1,231 @@
 /**
  *  screen.css
- *  ~~~~~~~~~~
- * 
- *  :copyright: (c) 2010-2011 by Rafael Goncalves Martins
- *  :license: GPL-2
+ *
+ *  We zap this and redo ALL of it.
  */
 
+
+html{
+    background-color:#333333;
+    color: white;
+    //font-family: 'Aldrich', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+p {
+    line-height: 1.45em;
+    font-size: 1.0em;
+}
+
+a {
+    //font-size: 0.9em;
+}
+
+div.metadata {
+    border: white 1px solid;
+    padding: 5px;
+    font-size: 0.8em;
+}
+
+/* STYLING FOR HEADINGS */
+h2 a:link,
+h2 a:visited,
+h2 a:hover,
+h2 a:focus,
+h2 a:active
+{
+    font-family: 'Aldrich';
+    color:cyan;
+    text-decoration: none;
+}
+h3 a:link,
+h3 a:visited,
+h3 a:hover,
+h3 a:focus,
+h3 a:active
+{
+    font-family: 'Aldrich';
+    color: cyan;
+    text-decoration: none;
+}
+/* Special case for title links */
+a:link.title {
+    text-decoration: none;
+}
+h1 {
+    color: cyan;
+    font-family: 'Aldrich';
+}
+
+/* STYLING FOR THE TOP BANNER */
+#banner h1{
+    font-size: 2.5em;
+    color: white;
+    margin-bottom: 0.5em;
+    /*margin-left: 15px;
+    margin-bottom: -10px;*/
+}
+#banner h1 b{
+    font-size: 0.8em;
+    color: cyan;
+}
+
+/* RANDOM STUFF */
+#page {
+    width: 1200px;
+    margin: auto;
+}
+
+.wrapper {
+    background-color: #333;
+    /*display: block;
+    border: solid black 1px;*/
+    margin: 15px;
+}
+
+.container {
+    overflow: hidden;
+}
+
+.pagination {
+    text-align: center;
+}
+
+#sitecontent {
+    float: left;
+	width: 812px;
+    margin-top: 0;
+}
+
+#footer {
+    text-align: center;
+}
+
+#sidebar {
+    width: auto;
+    margin-left: 841px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+.menu td {
+    /*order: solid black 1px;*/
+    text-align:center;
+    width:auto;
+}
+
+/* STYLING FOR THE TOP MENU */
+.menu {
+    width:100%;
+}
+#topmenu {
+    width:auto;
+    padding:0px;
+}
+#topmenu table {
+    margin: 0px;
+    border-spacing:0px;
+    padding 0px;
+}
+#topmenu table tr td{
+    padding: 10px;
+}
+#topmenu table tr td a{
+    text-decoration:none;
+    font-size: 1em;
+    padding: 10px 55px;
+    
+}
+
+#footer{
+    margin-top: -15px;
+}
+
+/* HYPERLINKS */
+a:link {
+   color:white; 
+}
+a:visited {
+    color: white;
+}
+a:hover {
+    color: #00FFFF;
+    background: #555555;
+}
+a:focus {
+    color: #00FFFF;
+    
+}
+a:active {
+    color: #00FFFF;
+}
+/* CLEAN LINK TABLE used for twitch stream atm */
+.linktable {
+    border-spacing: 0px;
+    
+}
+.linktable td {
+    padding-bottom: 10px;
+}
+.linktable a:link {
+    text-decoration: none;
+}
+
+/* CONTENT BOXES */
+.cutcorner span{
+    font-size:0.8em;
+}
+
+.cutcorner h3{
+    margin-top:0;
+    margin-bottom: 5px;
+}
+
+.cutcorner h2{
+    margin-top:0;
+    margin-bottom: 5px;
+}
+
+.cutcorner{
+    margin-bottom: 15px;
+    padding:15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+    background: #222222; /* credits to Lea Verou from http://lea.verou.me/2011/03/beveled-corners-negative-border-radius-with-css3-gradients/ */
+    background:
+        -linear-gradient(45deg,  transparent 10px, #222222 10px),
+        -linear-gradient(135deg, transparent 10px, #222222 10px),
+        -linear-gradient(225deg, transparent 10px, #222222 10px),
+        -linear-gradient(315deg, transparent 10px, #222222 10px);
+    background:
+        -moz-linear-gradient(45deg,  transparent 10px, #222222 10px),
+        -moz-linear-gradient(135deg, transparent 10px, #222222 10px),
+        -moz-linear-gradient(225deg, transparent 10px, #222222 10px),
+        -moz-linear-gradient(315deg, transparent 10px, #222222 10px);
+    background:
+        -o-linear-gradient(45deg,  transparent 10px, #222222 10px),
+        -o-linear-gradient(135deg, transparent 10px, #222222 10px),
+        -o-linear-gradient(225deg, transparent 10px, #222222 10px),
+        -o-linear-gradient(315deg, transparent 10px, #222222 10px);
+    background:
+        -webkit-linear-gradient(45deg,  transparent 10px, #222222 10px),
+        -webkit-linear-gradient(135deg, transparent 10px, #222222 10px),
+        -webkit-linear-gradient(225deg, transparent 10px, #222222 10px),
+        -webkit-linear-gradient(315deg, transparent 10px, #222222 10px);
+    background-position: bottom left, bottom right, top right, top left;
+    -moz-background-size: 52% 52%;
+    -webkit-background-size: 52% 52%;
+    background-size: 52% 52%;
+    background-repeat: no-repeat;
+}
+
+/*
 * {
     margin: 0;
     padding: 0;
 }
+
+
 
 body {
     font-family: "Georgia", verdana, sans-serif;
@@ -102,3 +318,4 @@ ul, li {
     text-align: center;
     margin: 15px auto;
 }
+*/

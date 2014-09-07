@@ -1,10 +1,12 @@
-About me
-========
+.. hide: True
 
-This is an example page!
+Hideee
+======
+.. attachment-image:: profile.jpg
+    :width: 200px
+    :align: left
+    :class: embedimage
 
-Here is an attachment example:
 
-.. attachment-image:: mercurial.png
-
-And here is the link for this attachment: :attachment:`mercurial.png`
+Sebastian is an Electrical Engineering Computer Science student at UC Berkeley
+with a variety of interests.
