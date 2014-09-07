@@ -25,16 +25,16 @@
   </head>
   <body>
   <div id="page">
-    <div id="banner" class="wrapper">
+    <div id="banner">
       <h1>Sebastian <b>'TheSambasti'</b> Merz</h1>
       <!--<h1>{{ config.TITLE_HTML }} <b>{{ config.TAGLINE }}</b> </h1>--!>
     </div>
         <div id="topmenu" class="wrapper cutcorner"><table class="menu">
           <tr>
             <td><a href="/">Home</a></td>
-            <td><a href="/post">Posts</a></td>
-            <td><a href="/blog">Blog</a></td>
-            <td><a href="/about">About</a></td>
+            <td><a href="/projects">Projects</a></td>
+            <td><a href="/resume">Resume</a></td>
+            <td><a href="{{ url_for('views.posts') }}">Blog</a></td>
             
           </tr>
         </table></div>

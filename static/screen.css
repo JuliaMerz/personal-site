@@ -27,6 +27,7 @@ div.metadata {
 }
 
 /* STYLING FOR HEADINGS */
+h2,
 h2 a:link,
 h2 a:visited,
 h2 a:hover,
@@ -37,6 +38,7 @@ h2 a:active
     color:cyan;
     text-decoration: none;
 }
+h3,
 h3 a:link,
 h3 a:visited,
 h3 a:hover,
@@ -61,8 +63,8 @@ h1 {
     font-size: 2.5em;
     color: white;
     margin-bottom: 0.5em;
-    /*margin-left: 15px;
-    margin-bottom: -10px;*/
+    margin-left: 15px;
+    margin-bottom: -10px;
 }
 #banner h1 b{
     font-size: 0.8em;
@@ -77,6 +79,7 @@ h1 {
 
 .wrapper {
     background-color: #333;
+    overflow: hidden;
     /*display: block;
     border: solid black 1px;*/
     margin: 15px;
@@ -140,6 +143,20 @@ h1 {
     margin-top: -15px;
 }
 
+.embeddedimage {
+    margin: 10px;
+    border: 1px solid cyan;
+}
+
+span b {
+    color: cyan;
+}
+
+img.align-left {
+    float: left;
+    margin-left: 0px;
+}
+
 /* HYPERLINKS */
 a:link {
    color:white; 
@@ -186,6 +203,7 @@ a:active {
 }
 
 .cutcorner{
+    overflow: hidden;
     margin-bottom: 15px;
     padding:15px;
     padding-left: 20px;
@@ -218,104 +236,3 @@ a:active {
     background-size: 52% 52%;
     background-repeat: no-repeat;
 }
-
-/*
-* {
-    margin: 0;
-    padding: 0;
-}
-
-
-
-body {
-    font-family: "Georgia", verdana, sans-serif;
-    background-color: #FFF;
-    color: #000;
-}
-
-a {
-    color: #036;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-ul, li {
-    list-style: none;
-}
-
-#header {
-    text-align: center;
-}
-
-#header h1 {
-    font-size: 50px;
-    margin-top: 25px;
-}
-
-#header h2 {
-    font-size: 15px;
-    margin-top: 15px;
-    margin-bottom: 20px;
-}
-
-#header ul, #header li {
-    display: inline;
-}
-
-#header li {
-    font-size: 20px;
-    margin: 0 15px;
-    padding: 0;
-}
-
-#body {
-    width: 70%;
-    margin: 25px auto;
-}
-
-#body h2 {
-    margin-top: 15px;
-    margin-bottom: 10px;
-}
-
-#body h2 a {
-    color: #024;
-}
-
-#body h4 {
-    margin-top: 15px;
-    margin-bottom: 12px;
-}
-
-#body p {
-    margin: 16px auto;
-}
-
-#body ul, #body li{
-    list-style: disc;
-}
-
-#body ul {
-    padding-left: 20px;
-}
-
-.pagination {
-    margin-top: 15px;
-    text-align: center;
-}
-
-.metadata {
-    border: 1px solid #CCC;
-    margin: 15px auto;
-    padding: 6px;
-    font-size: 11px;
-}
-
-#footer {
-    text-align: center;
-    margin: 15px auto;
-}
-*/

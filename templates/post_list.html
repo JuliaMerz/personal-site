@@ -1,5 +1,6 @@
 {%- extends 'base.html' %}
 {%- block body %}
+<div class="cutcorner">
 <h2>Posts</h2>
 <ul>
     {%- for post in posts %}
@@ -7,4 +8,5 @@
         post.title }}</a> - {{ post.datetime|datetimeformat }}</li>
     {%- endfor %}
 </ul>
+</div>
 {%- endblock %}
