@@ -26,7 +26,7 @@
   <body>
   <div id="page">
     <div id="banner">
-      <h1>Sebastian <b>'TheSambasti'</b> Merz</h1>
+      <h1>Sebastian {% if current_path=="esports" %}<b>'TheSambasti'</b> {% endif -%} Merz</h1>
       <!--<h1>{{ config.TITLE_HTML }} <b>{{ config.TAGLINE }}</b> </h1>--!>
     </div>
         <div id="topmenu" class="wrapper cutcorner"><table class="menu">
@@ -34,6 +34,7 @@
             <td><a href="/">Home</a></td>
             <td><a href="/projects">Projects</a></td>
             <td><a href="/resume">Resume</a></td>
+            <td><a href="/esports">Esports</a></td>
             <td><a href="{{ url_for('views.posts') }}">Blog</a></td>
             
           </tr>
@@ -65,7 +66,7 @@
     </div>
   </div>
     <div id="footer" class="wrapper cutcorner">
-            Template by: <a href="http://smerz.io">Sebastian Merz</a>
+            Frontend by: <a href="http://smerz.io">Sebastian Merz</a>
             Powered by: <a href="http://blohg.org/">blohg {{ version }}</a>
     </div>
 

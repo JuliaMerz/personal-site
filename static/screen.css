@@ -110,22 +110,26 @@ h1 {
     margin-bottom: 30px;
 }
 
-.menu td {
-    /*order: solid black 1px;*/
-    text-align:center;
-    width:auto;
-}
-
 /* STYLING FOR THE TOP MENU */
 .menu {
     width:100%;
 }
+
+.menu td {
+    /*order: solid black 1px;*/
+    text-align:center;
+    width:0;
+}
+
 #topmenu {
     width:auto;
     padding:0px;
 }
 #topmenu table {
-    margin: 0px;
+    //margin: 0px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
     border-spacing:0px;
     padding 0px;
 }
@@ -195,11 +199,22 @@ a:active {
 .cutcorner h3{
     margin-top:0;
     margin-bottom: 5px;
+    border-bottom: solid white 2px;
+}
+
+.cutcorner h3 + p{
+  margin-top: 5px;
 }
 
 .cutcorner h2{
     margin-top:0;
     margin-bottom: 5px;
+}
+
+//.cutcorner h2 + hr {
+  height: 3px;
+  border: 0px;
+  background-color: white;
 }
 
 .cutcorner{
