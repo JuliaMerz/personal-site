@@ -6,7 +6,7 @@
 
 
 html{
-    background-color:#DDD;
+    background-color:#F0F0F0;
     color: white;
     //font-family: 'Aldrich', sans-serif;
     font-family: 'Roboto', sans-serif;
@@ -78,7 +78,7 @@ h1 {
 }
 
 .wrapper {
-    background-color: #DDD;
+    background-color: #F0F0F0;
     overflow: hidden;
     /*display: block;
     border: solid black 1px;*/
