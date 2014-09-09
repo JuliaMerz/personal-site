@@ -59,10 +59,13 @@
     
     <div id="sidebar" class="wrapper">
         
+      {% if active_page =="posts" %}
+        {% include "tag_box.html" %}
         {% include "useful_links.html" %}
-        {% for sidebar in sidebars %}
-        {% include "sidebars/"+sidebar['machine_name']+".html" %}
-        {% endfor %}
+      {% else %}
+        {% include "useful_links.html" %}
+        {% include "tag_box.html" %}
+      {% endif %}
     </div>
   </div>
     <div id="footer" class="wrapper cutcorner">

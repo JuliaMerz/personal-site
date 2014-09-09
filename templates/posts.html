@@ -5,9 +5,11 @@
 {%- block body %}
 
 {%- if tag -%}
-<h4>Tag: {{ ' + '.join(tag) }}
+<div class="cutcorner">
+  <h4><b>Tag:</b> {{ ' + '.join(tag) }}
     (<small><a href="{{ url_for('views.atom', tag='/'.join(tag)) }}">Atom feed</a></small>)
 </h4>
+</div>
 {%- endif %}
 
 {%- for post in posts %}

@@ -196,6 +196,14 @@ a:active {
     font-size:0.8em;
 }
 
+.cutcorner h4 b{
+  color: cyan
+}
+
+.cutcorner > h4:last-child{
+  margin:0px;
+}
+
 .cutcorner h3{
     margin-top:0;
     margin-bottom: 5px;

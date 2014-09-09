@@ -1,0 +1,12 @@
+<div id="sidebar-tags" class="cutcorner">
+    <h3>Blog Posts By Tag</h3>
+    <table class="linktable">
+      {% for tag in tags %}
+        <tr>
+            <td>
+              <a href="{{ url_for('views.tag', tag=tag) }}">{{ tag }} </a>
+            </td>
+        </tr>
+      {% endfor %}
+    </table>
+</div>
