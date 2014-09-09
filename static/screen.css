@@ -6,7 +6,7 @@
 
 
 html{
-    background-color:#333333;
+    background-color:#DDD;
     color: white;
     //font-family: 'Aldrich', sans-serif;
     font-family: 'Roboto', sans-serif;
@@ -61,7 +61,7 @@ h1 {
 /* STYLING FOR THE TOP BANNER */
 #banner h1{
     font-size: 2.5em;
-    color: cyan;
+    color: #333;
     margin-bottom: 0.5em;
     margin-left: 15px;
     margin-bottom: -10px;
@@ -78,7 +78,7 @@ h1 {
 }
 
 .wrapper {
-    background-color: #333;
+    background-color: #DDD;
     overflow: hidden;
     /*display: block;
     border: solid black 1px;*/
