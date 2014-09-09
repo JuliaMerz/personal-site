@@ -9,8 +9,8 @@ About Me
 
 I'm an Electrical Engineering Computer Science student at UC Berkeley. 
 I mostly do full stack web development, and I have experience with everything from
-front end javascript to apache configuration and project deployment. My favorite language
-is python, and my favorite framework is Flask. 
+front end javascript to apache configuration and project deployment. At the moment, my 
+favorite language is python, and my favorite framework is Flask. 
 
 When I'm not coding, I serve as
 executive officer for Hackers\@Berkeley, a director at Cal Hacks, and a founder-in-absentia
