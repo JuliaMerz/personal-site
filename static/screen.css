@@ -68,7 +68,7 @@ h1 {
 }
 #banner h1 b{
     font-size: 0.8em;
-    color: cyan;
+    color: darkcyan;
 }
 
 /* RANDOM STUFF */
@@ -199,7 +199,7 @@ a:active {
 .cutcorner h3{
     margin-top:0;
     margin-bottom: 5px;
-    border-bottom: solid white 2px;
+    border-bottom: solid white 1px;
 }
 
 .cutcorner h3 + p{
@@ -209,7 +209,13 @@ a:active {
 .cutcorner h2{
     margin-top:0;
     margin-bottom: 5px;
+    border-bottom: solid white 2px;
 }
+
+div.cutcorner > h3:first-child {
+    border-bottom: solid white 2px;
+}
+
 
 //.cutcorner h2 + hr {
   height: 3px;
