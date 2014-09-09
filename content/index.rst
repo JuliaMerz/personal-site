@@ -10,11 +10,9 @@ About Me
 I'm an Electrical Engineering Computer Science student at UC Berkeley. 
 I mostly do full stack web development, and I have experience with everything from
 front end javascript to apache configuration and project deployment. My favorite language
-is pythong, and my favorite framework is Flask. 
+is python, and my favorite framework is Flask. 
 
-When I'm not coding I serve as
+When I'm not coding, I serve as
 executive officer for Hackers\@Berkeley, a director at Cal Hacks, and a founder-in-absentia
-at `eXodus eSports <http://www.exodusesports.com>`_ .
-Maybe someday I'll be important enough to write an autobiography, but for now
-you'll have to be satisfied with what's written here, and if you want to know 
-more, you can ask me!
+at `eXodus eSports <http://www.exodusesports.com>`_ . Besides that I enjoy surfing, windsurfing,
+and experimenting with digital art.
