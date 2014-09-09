@@ -17,7 +17,7 @@ contain people you don't know, every other set of data was locked away by privac
 at least for the vast majority of people. With gender as the only data set to work with,
 I decided to just display that in the awesomest way possible. Gendrratio is the result.
 
-`Live demo. <http://beta.smerz.io/gendrratio>`_
+`Live demo. <http://beta.smerz.io/gendrratio>`__
 
 ECC Problem Generator
 ---------------------------
@@ -26,4 +26,4 @@ an offline script that printed some ECC problems and put it online. I converted 
 script to use a web form instead of stdin for input and display errors in a more
 graceful manner. Then I stuck it into a Flask server and put it up here.
 
-`Live demo. <http://ecc.smerz.io>`_
+`Live demo. <http://ecc.smerz.io>`__
