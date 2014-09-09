@@ -9,7 +9,7 @@ So I finally got around to making a personal site. It only took me like a year!
 
 Yeah, there's not too much to see yet. I decided I was going to use blohg for the backend
 after realizing that someone had already written a Flask CMS. Although they hadn't shared
-it, that was enough to make me want to not do it again, so I googled for Flask-based bloggin
+it, that was enough to make me want to not do it again, so I googled for Flask-based blogging
 platforms. I wanted something based on Flask because I knew then I could stretch the
 platform to make it do what I wanted it to do on the front end and, if necessary, the 
 backend as well. Blohg fit the bill. It takes in rst and throws it up as html. The
